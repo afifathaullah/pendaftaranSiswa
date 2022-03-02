@@ -1,0 +1,248 @@
+/* Manage Siswa Css */
+
+.login {
+    -fx-background-color: #21325E;
+}
+
+.login .form {
+    -fx-background-color: #fdfdfd;
+    -fx-background-radius: 30;
+}
+
+.login .button {
+    -fx-background-color: #F1D00A;
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-background-radius: 10;
+}
+
+.login .button:hover {
+    -fx-background-color: #fdfdfd;
+    -fx-border-color: #21325E;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+    /* -fx-fill: default; */
+    /* -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-background-radius: 10; */
+}
+
+.login .button .text {
+    -fx-fill: #3E497A;
+}
+
+.sideBar {
+    -fx-background-color: #3E497A;
+}
+
+.sideBar .button {
+    -fx-background-color: #F1D00A;
+    -fx-pref-width: 170;
+    -fx-pref-height: 60;
+    -fx-background-radius: 10;
+    -fx-focus-traversable: true;
+}
+
+.sideBar .button:hover {
+    -fx-background-color: #d1b30c;
+}
+
+.form .button {
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-background-radius: 10;
+}
+
+.form .delete {
+    -fx-background-color: #f74134;
+}
+
+.form .delete:hover {
+    -fx-background-color: #cc3e34;
+}
+
+.form .add {
+    -fx-background-color: #007400;
+}
+
+.form .add:hover {
+    -fx-background-color: #005000;
+}
+
+.form .update {
+    -fx-background-color: #1818e9;
+}
+
+.form .update:hover {
+    -fx-background-color: #04049e;
+}
+
+.form .clear {
+    -fx-background-color: #3E497A;
+}
+
+.form .clear:hover {
+    -fx-background-color: #343c64;
+}
+
+.topBar {
+    -fx-background-color: #21325E;
+    -fx-background-radius: 10;
+}
+
+.table-view {
+    -fx-background-color: #F0F0F0;
+    -fx-background-radius: 30;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3E497A;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0 0 10 0;
+    -fx-padding: 0 0 10 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-size: 40;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.form .text-field {
+    -fx-background-radius: 10;
+    -fx-font-size: 20;
+    /* -fx-pref-width: 387; */
+}
+
+.table-container .search {
+    -fx-border-color: #21325E;
+    -fx-pref-heigth: 30;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+}
+
+.table-container .search:hover {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #909090;
+}
+
+.table-container .search:focused {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #0093EF;
+}
+
+.topBar .search {
+    -fx-border-color: #21325E;
+    -fx-border-radius: 10;
+    -fx-pref-heigth: 30;
+    -fx-border-width: 1;
+    -fx-background-color: transparent;
+}
+
+.topBar .search:hover {
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+    -fx-border-color: #0093EF;
+}
+
+.topBar .search:focused {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 1;
+    -fx-border-color: #0093EF;
+    -fx-background-color: #fdfdfd;
+}
+
+.form .date-picker .arrow-button {
+    -fx-background-color: #21325E;
+    -fx-cursor: hand;
+}
+
+.form .date-picker .arrow-button:hover {
+    -fx-background-color: #0d6efd;
+}
+
+.form .date-picker .arrow {
+    -fx-background-color: #ffffff;
+}
+
+.form .radio-button .dot:hover {
+    -fx-background-color: #909090;
+}
+
+.form .radio-button {
+    -fx-font-size: 20;
+}
+
+.form .combo-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #21325E;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-focus-traversable: true;
+    -fx-font-size: 20;
+}
+
+.form .combo-box .arrow-button {
+    -fx-background-color: #21325E;
+    -fx-background-radius: 0 10 10 0;
+    -fx-cursor: hand;
+}
+
+.form .combo-box .arrow-button:hover {
+    -fx-background-color: #0093EF;
+}
+
+.form .combo-box .arrow {
+    -fx-background-color: #ffffff;
+}
+
+.daftar .button {
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-background-radius: 10;
+}
+
+.daftar .lolos {
+    -fx-background-color: #007400;
+}
+
+.daftar .lolos:hover {
+    -fx-background-color: #005000;
+}
+
+.daftar .print {
+    -fx-background-color: #0000C8;
+}
+
+.daftar .print:hover {
+    -fx-background-color: #04049e;
+}
+
+.alert {
+    -fx-background-color: #f2f3fe;
+    -fx-border-radius: 10;
+    -fx-border-color: #21325E;
+    -fx-border-width: 1;
+}
+
+.alert .button {
+    -fx-background-color: #5cb85c;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #21325E;
+    -fx-border-width: 1;
+}
+
+.alert .button:hover {
+    -fx-background-color: #468646;
+    /* -fx-border-radius: 10;
+    -fx-border-color: #21325E;
+    -fx-border-width: 1; */
+}
